@@ -3,7 +3,7 @@ const IMG_NUMBER = 3;
 
 function drawBackground(random_num) {
     const img = new Image();
-    img.src = `images/ ${random_num}.jpg`
+    img.src = `images/${random_num}.jpg`
     img.classList.add('background');
     body.prepend(img);
 }
